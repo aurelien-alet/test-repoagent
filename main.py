@@ -9,5 +9,5 @@ async def root():
 
 
 @app.get("/another-endpoint")
-async def root():
+async def another_endpoint():
     return {"message": "Another endpoint"}
